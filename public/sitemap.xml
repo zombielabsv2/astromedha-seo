@@ -140,6 +140,42 @@
   <url><loc>https://astromedha.in/compatibility/kumbha-kumbha/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://astromedha.in/compatibility/kumbha-meena/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://astromedha.in/compatibility/meena-meena/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <!-- Hindi pages -->
+  <url><loc>https://astromedha.in/hi/numerology/1/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://astromedha.in/hi/numerology/2/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://astromedha.in/hi/numerology/3/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://astromedha.in/hi/numerology/4/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://astromedha.in/hi/numerology/5/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://astromedha.in/hi/numerology/6/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://astromedha.in/hi/numerology/7/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://astromedha.in/hi/numerology/8/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://astromedha.in/hi/numerology/9/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://astromedha.in/hi/free/numerology/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://astromedha.in/hi/free/compatibility/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://astromedha.in/hi/free/personal-year/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <!-- Hindi Zodiac Pages (12) -->
+  <url><loc>https://astromedha.in/hi/zodiac/mesha/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://astromedha.in/hi/zodiac/vrishabha/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://astromedha.in/hi/zodiac/mithuna/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://astromedha.in/hi/zodiac/karka/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://astromedha.in/hi/zodiac/simha/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://astromedha.in/hi/zodiac/kanya/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://astromedha.in/hi/zodiac/tula/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://astromedha.in/hi/zodiac/vrishchika/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://astromedha.in/hi/zodiac/dhanu/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://astromedha.in/hi/zodiac/makara/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://astromedha.in/hi/zodiac/kumbha/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://astromedha.in/hi/zodiac/meena/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <!-- Hindi Dasha Pages (9) -->
+  <url><loc>https://astromedha.in/hi/dasha/ketu/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://astromedha.in/hi/dasha/venus/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://astromedha.in/hi/dasha/sun/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://astromedha.in/hi/dasha/moon/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://astromedha.in/hi/dasha/mars/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://astromedha.in/hi/dasha/rahu/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://astromedha.in/hi/dasha/jupiter/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://astromedha.in/hi/dasha/saturn/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://astromedha.in/hi/dasha/mercury/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://astromedha.in/name-analysis/a/</loc><priority>0.6</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://astromedha.in/name-analysis/b/</loc><priority>0.6</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://astromedha.in/name-analysis/c/</loc><priority>0.6</priority><changefreq>monthly</changefreq></url>
