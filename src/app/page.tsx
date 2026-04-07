@@ -9,18 +9,18 @@ export const metadata: Metadata = {
 };
 
 const zodiacSigns = [
-  { slug: "mesha", name: "Mesha", english: "Aries", symbol: "\u2648" },
-  { slug: "vrishabha", name: "Vrishabha", english: "Taurus", symbol: "\u2649" },
-  { slug: "mithuna", name: "Mithuna", english: "Gemini", symbol: "\u264A" },
-  { slug: "karka", name: "Karka", english: "Cancer", symbol: "\u264B" },
-  { slug: "simha", name: "Simha", english: "Leo", symbol: "\u264C" },
-  { slug: "kanya", name: "Kanya", english: "Virgo", symbol: "\u264D" },
-  { slug: "tula", name: "Tula", english: "Libra", symbol: "\u264E" },
-  { slug: "vrishchika", name: "Vrishchika", english: "Scorpio", symbol: "\u264F" },
-  { slug: "dhanu", name: "Dhanu", english: "Sagittarius", symbol: "\u2650" },
-  { slug: "makara", name: "Makara", english: "Capricorn", symbol: "\u2651" },
-  { slug: "kumbha", name: "Kumbha", english: "Aquarius", symbol: "\u2652" },
-  { slug: "meena", name: "Meena", english: "Pisces", symbol: "\u2653" },
+  { slug: "mesha", name: "Mesha", english: "Aries", symbol: "♈" },
+  { slug: "vrishabha", name: "Vrishabha", english: "Taurus", symbol: "♉" },
+  { slug: "mithuna", name: "Mithuna", english: "Gemini", symbol: "♊" },
+  { slug: "karka", name: "Karka", english: "Cancer", symbol: "♋" },
+  { slug: "simha", name: "Simha", english: "Leo", symbol: "♌" },
+  { slug: "kanya", name: "Kanya", english: "Virgo", symbol: "♍" },
+  { slug: "tula", name: "Tula", english: "Libra", symbol: "♎" },
+  { slug: "vrishchika", name: "Vrishchika", english: "Scorpio", symbol: "♏" },
+  { slug: "dhanu", name: "Dhanu", english: "Sagittarius", symbol: "♐" },
+  { slug: "makara", name: "Makara", english: "Capricorn", symbol: "♑" },
+  { slug: "kumbha", name: "Kumbha", english: "Aquarius", symbol: "♒" },
+  { slug: "meena", name: "Meena", english: "Pisces", symbol: "♓" },
 ];
 
 const features = [
@@ -28,37 +28,37 @@ const features = [
     title: "Vedic Birth Chart Analysis",
     description:
       "Complete Lagna, Rashi, and Navamsha chart computation using Swiss Ephemeris. Precise planetary positions, house placements, and aspects.",
-    icon: "\u2727",
+    icon: "✧",
   },
   {
     title: "Chaldean Numerology",
     description:
-      "Life Path, Destiny, Soul Urge, and Personal Year numbers computed using the authentic Chaldean system \u2014 the oldest numerological tradition.",
-    icon: "\u2630",
+      "Life Path, Destiny, Soul Urge, and Personal Year numbers computed using the authentic Chaldean system — the oldest numerological tradition.",
+    icon: "☰",
   },
   {
     title: "Vimshottari Dasha Timeline",
     description:
       "Know your current Mahadasha, Antardasha, and Pratyantardasha periods. Understand the planetary influences shaping your life right now.",
-    icon: "\u25CE",
+    icon: "◎",
   },
   {
     title: "AI-Powered Daily Guidance",
     description:
-      "AI synthesizes your numerology, dasha periods, and planetary transits into actionable daily guidance \u2014 energy scores, mantras, do\u2019s and don\u2019ts.",
-    icon: "\u2726",
+      "AI synthesizes your numerology, dasha periods, and planetary transits into actionable daily guidance — energy scores, mantras, do’s and don’ts.",
+    icon: "✦",
   },
   {
     title: "27 Nakshatra Insights",
     description:
-      "Deep analysis of your birth Nakshatra \u2014 personality traits, compatible Nakshatras, career guidance, and spiritual path from the Lunar mansion system.",
-    icon: "\u263D",
+      "Deep analysis of your birth Nakshatra — personality traits, compatible Nakshatras, career guidance, and spiritual path from the Lunar mansion system.",
+    icon: "☽",
   },
   {
     title: "5 Personal Power Tools",
     description:
-      "Decision Advisor, Compatibility Checker, Muhurta Finder, Name Analysis, and Finance Calendar \u2014 all personalized to your birth chart.",
-    icon: "\u26A1",
+      "Decision Advisor, Compatibility Checker, Muhurta Finder, Name Analysis, and Finance Calendar — all personalized to your birth chart.",
+    icon: "⚡",
   },
 ];
 
@@ -73,7 +73,7 @@ const freeTools = [
     href: "/free/compatibility",
     title: "Compatibility Checker",
     description:
-      "Check Vedic zodiac compatibility between two signs \u2014 elemental harmony and Guna analysis",
+      "Check Vedic zodiac compatibility between two signs — elemental harmony and Guna analysis",
   },
   {
     href: "/free/personal-year",
@@ -98,7 +98,7 @@ export default function HomePage() {
           </h1>
           <p className="mt-6 text-lg md:text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
             Personalized daily guidance through Chaldean Numerology, Vimshottari
-            Dasha analysis, and Vedic birth chart interpretation \u2014 synthesized
+            Dasha analysis, and Vedic birth chart interpretation — synthesized
             by AI into actionable insights.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
@@ -106,7 +106,7 @@ export default function HomePage() {
               href="https://astromedha.streamlit.app"
               className="px-8 py-3.5 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-lg transition-colors text-lg"
             >
-              Get Your Guidance \u2014 Free
+              Get Your Guidance — Free
             </Link>
             <Link
               href="/free/numerology"
@@ -124,10 +124,10 @@ export default function HomePage() {
           What is AstroMedha?
         </h2>
         <p className="text-gray-300 text-lg leading-relaxed text-center">
-          AstroMedha combines three ancient wisdom systems \u2014{" "}
+          AstroMedha combines three ancient wisdom systems —{" "}
           <strong>Vedic Astrology</strong> (Jyotish),{" "}
           <strong>Chaldean Numerology</strong>, and the{" "}
-          <strong>Vimshottari Dasha</strong> system \u2014 with modern AI to deliver
+          <strong>Vimshottari Dasha</strong> system — with modern AI to deliver
           personalized guidance. Every insight is computed from your exact birth
           data using Swiss Ephemeris precision, then interpreted by AI to provide
           specific, actionable daily guidance.
@@ -247,7 +247,7 @@ export default function HomePage() {
           Free Vedic Astrology & Numerology Tools
         </h2>
         <p className="text-gray-400 text-center mb-10 max-w-2xl mx-auto">
-          Try our free calculators \u2014 no sign-up required.
+          Try our free calculators — no sign-up required.
         </p>
         <div className="grid md:grid-cols-3 gap-6">
           {freeTools.map((tool) => (
@@ -261,7 +261,7 @@ export default function HomePage() {
               </h3>
               <p className="text-sm text-gray-400">{tool.description}</p>
               <span className="inline-block mt-4 text-purple-400 text-sm font-medium">
-                Try Free \u2192
+                Try Free →
               </span>
             </Link>
           ))}
@@ -288,7 +288,7 @@ export default function HomePage() {
             {
               n: 3,
               title: "Get Daily Guidance",
-              text: "Receive personalized daily energy scores, mantras, do\u2019s and don\u2019ts, and proactive alerts for planetary shifts.",
+              text: "Receive personalized daily energy scores, mantras, do’s and don’ts, and proactive alerts for planetary shifts.",
             },
           ].map((s) => (
             <div key={s.n} className="text-center">
@@ -353,7 +353,7 @@ export default function HomePage() {
             href="https://astromedha.streamlit.app"
             className="inline-block px-8 py-3.5 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-lg transition-colors text-lg"
           >
-            Start Free \u2192
+            Start Free →
           </Link>
         </div>
       </section>
@@ -382,7 +382,7 @@ export default function HomePage() {
 const faqs = [
   {
     q: "What is Vedic Astrology (Jyotish)?",
-    a: "Vedic Astrology, or Jyotish Shastra, is an ancient Indian system of astrology that uses the sidereal zodiac \u2014 tracking the actual positions of planets against the stars. Unlike Western astrology which uses the tropical zodiac, Vedic astrology accounts for the precession of equinoxes, giving more astronomically accurate planetary positions.",
+    a: "Vedic Astrology, or Jyotish Shastra, is an ancient Indian system of astrology that uses the sidereal zodiac — tracking the actual positions of planets against the stars. Unlike Western astrology which uses the tropical zodiac, Vedic astrology accounts for the precession of equinoxes, giving more astronomically accurate planetary positions.",
   },
   {
     q: "What is Chaldean Numerology?",
@@ -390,7 +390,7 @@ const faqs = [
   },
   {
     q: "What is the Vimshottari Dasha system?",
-    a: "The Vimshottari Dasha is a 120-year predictive system unique to Vedic astrology. It divides your life into planetary periods (Mahadasha), sub-periods (Antardasha), and sub-sub-periods (Pratyantardasha). Each period is governed by a specific planet, influencing different areas of your life based on that planet\u2019s placement in your birth chart.",
+    a: "The Vimshottari Dasha is a 120-year predictive system unique to Vedic astrology. It divides your life into planetary periods (Mahadasha), sub-periods (Antardasha), and sub-sub-periods (Pratyantardasha). Each period is governed by a specific planet, influencing different areas of your life based on that planet’s placement in your birth chart.",
   },
   {
     q: "How is AstroMedha different from other astrology sites?",
@@ -398,6 +398,6 @@ const faqs = [
   },
   {
     q: "Do I need my exact birth time?",
-    a: "Birth time improves accuracy significantly \u2014 it determines your Ascendant (Lagna), house placements, and Nakshatra pada. Without it, AstroMedha still provides numerology analysis and approximate planetary positions, but guidance will be more precise with an accurate birth time.",
+    a: "Birth time improves accuracy significantly — it determines your Ascendant (Lagna), house placements, and Nakshatra pada. Without it, AstroMedha still provides numerology analysis and approximate planetary positions, but guidance will be more precise with an accurate birth time.",
   },
 ];

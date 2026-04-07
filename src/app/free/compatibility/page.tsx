@@ -106,14 +106,14 @@ export default function CompatibilityChecker() {
       <p className="text-gray-400 text-lg mb-8 leading-relaxed">
         Check the <strong className="text-gray-200">Vedic zodiac compatibility</strong> between
         two signs based on elemental harmony, planetary lordship friendship, house aspects, and
-        quality matching \u2014 key factors in Jyotish compatibility analysis.
+        quality matching — key factors in Jyotish compatibility analysis.
       </p>
 
       {/* Checker */}
       <div className="bg-gray-900/50 border border-gray-800 rounded-xl p-6 mb-10">
         <div className="grid sm:grid-cols-2 gap-4 mb-6">
           <div>
-            <label className="block text-sm text-gray-400 mb-2">Person 1 \u2014 Moon Sign (Rashi)</label>
+            <label className="block text-sm text-gray-400 mb-2">Person 1 — Moon Sign (Rashi)</label>
             <select
               value={sign1}
               onChange={(e) => setSign1(Number(e.target.value))}
@@ -126,7 +126,7 @@ export default function CompatibilityChecker() {
             </select>
           </div>
           <div>
-            <label className="block text-sm text-gray-400 mb-2">Person 2 \u2014 Moon Sign (Rashi)</label>
+            <label className="block text-sm text-gray-400 mb-2">Person 2 — Moon Sign (Rashi)</label>
             <select
               value={sign2}
               onChange={(e) => setSign2(Number(e.target.value))}
@@ -191,13 +191,13 @@ export default function CompatibilityChecker() {
               href={`/zodiac/${SIGNS[sign1].slug}`}
               className="text-sm text-purple-400 hover:text-purple-300 text-center"
             >
-              Read full {SIGNS[sign1].name.split(" ")[0]} profile \u2192
+              Read full {SIGNS[sign1].name.split(" ")[0]} profile →
             </Link>
             <Link
               href={`/zodiac/${SIGNS[sign2].slug}`}
               className="text-sm text-purple-400 hover:text-purple-300 text-center"
             >
-              Read full {SIGNS[sign2].name.split(" ")[0]} profile \u2192
+              Read full {SIGNS[sign2].name.split(" ")[0]} profile →
             </Link>
           </div>
         </div>
@@ -245,7 +245,7 @@ export default function CompatibilityChecker() {
           href="https://astromedha.streamlit.app"
           className="inline-block px-8 py-3 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-lg transition-colors"
         >
-          Get Full Analysis \u2192
+          Get Full Analysis →
         </Link>
       </div>
     </main>

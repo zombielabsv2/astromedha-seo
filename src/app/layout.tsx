@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://astromedha.in"),
   title: {
-    default: "AstroMedha \u2014 AI-Powered Vedic Astrology & Numerology",
+    default: "AstroMedha — AI-Powered Vedic Astrology & Numerology",
     template: "%s | AstroMedha",
   },
   description:
@@ -25,13 +25,13 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_IN",
     siteName: "AstroMedha",
-    title: "AstroMedha \u2014 AI-Powered Vedic Astrology & Numerology",
+    title: "AstroMedha — AI-Powered Vedic Astrology & Numerology",
     description:
       "Personalized daily guidance through Vedic Astrology, Chaldean Numerology, and AI interpretation.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "AstroMedha \u2014 AI-Powered Vedic Astrology & Numerology",
+    title: "AstroMedha — AI-Powered Vedic Astrology & Numerology",
     description:
       "Personalized daily guidance through Vedic Astrology, Chaldean Numerology, and AI interpretation.",
   },
@@ -62,7 +62,7 @@ function Header() {
     <header className="sticky top-0 z-50 border-b border-gray-800/50 bg-gray-950/80 backdrop-blur-md">
       <nav className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 font-bold text-lg">
-          <span className="text-purple-400">\u2727</span>
+          <span className="text-purple-400">✧</span>
           <span className="text-gray-100">AstroMedha</span>
         </Link>
         <div className="hidden md:flex items-center gap-6 text-sm">
@@ -197,7 +197,7 @@ function Footer() {
 
         <div className="mt-10 pt-6 border-t border-gray-800/50 text-center">
           <p className="text-xs text-gray-600">
-            AstroMedha \u2014 AI-Powered Vedic Astrology & Numerology Guidance
+            AstroMedha — AI-Powered Vedic Astrology & Numerology Guidance
           </p>
           <p className="text-xs text-gray-700 mt-1">
             Guidance is for personal reflection and self-development. Not a substitute for professional advice.

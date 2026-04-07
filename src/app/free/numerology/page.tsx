@@ -99,7 +99,7 @@ export default function NumerologyCalculator() {
         <strong className="text-gray-200">Destiny Number</strong>,{" "}
         <strong className="text-gray-200">Soul Urge Number</strong>, and{" "}
         <strong className="text-gray-200">Personal Year Number</strong> using the
-        authentic Chaldean numerology system \u2014 the oldest and most accurate
+        authentic Chaldean numerology system — the oldest and most accurate
         numerological tradition from ancient Babylon.
       </p>
 
@@ -141,8 +141,8 @@ export default function NumerologyCalculator() {
           <h2 className="text-2xl font-bold text-gray-100 mb-6">Your Numerology Profile</h2>
           <div className="grid sm:grid-cols-2 gap-4">
             {[
-              { label: "Life Path Number", value: results.lifePath, desc: "Your life\u2019s purpose and core identity" },
-              { label: "Destiny Number", value: results.destiny, desc: "Your talents and what you\u2019re here to achieve" },
+              { label: "Life Path Number", value: results.lifePath, desc: "Your life’s purpose and core identity" },
+              { label: "Destiny Number", value: results.destiny, desc: "Your talents and what you’re here to achieve" },
               { label: "Soul Urge Number", value: results.soulUrge, desc: "Your inner desires and deepest motivations" },
               { label: "Personal Year (" + new Date().getFullYear() + ")", value: results.personalYear, desc: "The theme and energy of your current year" },
             ].map((r) => {
@@ -158,7 +158,7 @@ export default function NumerologyCalculator() {
                       <p className="text-xs text-gray-500 mb-2">{r.desc}</p>
                       {meaning && (
                         <>
-                          <p className="text-sm text-purple-300 font-medium">{meaning.title} \u2022 Ruled by {meaning.planet}</p>
+                          <p className="text-sm text-purple-300 font-medium">{meaning.title} • Ruled by {meaning.planet}</p>
                           <p className="text-sm text-gray-400 mt-1">{meaning.traits}</p>
                         </>
                       )}
@@ -168,7 +168,7 @@ export default function NumerologyCalculator() {
                     href={`/numerology/${r.value}`}
                     className="inline-block mt-3 text-sm text-purple-400 hover:text-purple-300"
                   >
-                    Read full Number {r.value} analysis \u2192
+                    Read full Number {r.value} analysis →
                   </Link>
                 </div>
               );
@@ -236,7 +236,7 @@ export default function NumerologyCalculator() {
           href="https://astromedha.streamlit.app"
           className="inline-block px-8 py-3 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-lg transition-colors"
         >
-          Get Full Guidance \u2192
+          Get Full Guidance →
         </Link>
       </div>
     </main>

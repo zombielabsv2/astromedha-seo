@@ -16,11 +16,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const data = getNakshatraBySlug(name);
   if (!data) return {};
   return {
-    title: `${data.name} Nakshatra \u2014 Characteristics, Deity, Compatibility & Remedies`,
+    title: `${data.name} Nakshatra — Characteristics, Deity, Compatibility & Remedies`,
     description: `Complete guide to ${data.name} Nakshatra (#${data.number}). Ruling planet ${data.rulingPlanet}, deity ${data.deity}, symbol ${data.symbol}. Personality, career, compatibility, and Vedic remedies.`,
     alternates: { canonical: `https://astromedha.in/nakshatra/${name}` },
     openGraph: {
-      title: `${data.name} Nakshatra \u2014 Vedic Lunar Mansion Guide`,
+      title: `${data.name} Nakshatra — Vedic Lunar Mansion Guide`,
       description: data.overview,
       type: "article",
     },
@@ -69,7 +69,7 @@ export default async function NakshatraPage({ params }: Props) {
           {data.name} Nakshatra
         </h1>
         <p className="text-gray-400">
-          {data.degreeRange} \u2022 Ruled by {data.rulingPlanet} \u2022 Deity: {data.deity}
+          {data.degreeRange} • Ruled by {data.rulingPlanet} • Deity: {data.deity}
         </p>
       </div>
 
@@ -140,7 +140,7 @@ export default async function NakshatraPage({ params }: Props) {
           <ul className="space-y-2">
             {data.remedies.map((r) => (
               <li key={r} className="text-gray-300 text-sm flex items-start gap-2">
-                <span className="text-purple-400 mt-0.5">\u2022</span> {r}
+                <span className="text-purple-400 mt-0.5">•</span> {r}
               </li>
             ))}
           </ul>
@@ -173,7 +173,7 @@ export default async function NakshatraPage({ params }: Props) {
           href={`/zodiac/${data.zodiacSign}`}
           className="text-sm text-purple-400 hover:text-purple-300 underline"
         >
-          Read full {data.zodiacSign} zodiac sign profile \u2192
+          Read full {data.zodiacSign} zodiac sign profile →
         </Link>
       </section>
 
@@ -206,7 +206,7 @@ export default async function NakshatraPage({ params }: Props) {
           href="https://astromedha.streamlit.app"
           className="inline-block px-8 py-3 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-lg transition-colors"
         >
-          Find My Nakshatra \u2192
+          Find My Nakshatra →
         </Link>
       </div>
 
@@ -216,7 +216,7 @@ export default async function NakshatraPage({ params }: Props) {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            headline: `${data.name} Nakshatra \u2014 Complete Vedic Guide`,
+            headline: `${data.name} Nakshatra — Complete Vedic Guide`,
             description: data.overview,
             author: { "@type": "Organization", name: "AstroMedha" },
             publisher: { "@type": "Organization", name: "AstroMedha", url: "https://astromedha.in" },

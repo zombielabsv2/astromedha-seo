@@ -16,11 +16,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const data = getDashaBySlug(planet);
   if (!data) return {};
   return {
-    title: `${data.planet} Mahadasha \u2014 Effects, Duration, Remedies & Antardasha Periods`,
+    title: `${data.planet} Mahadasha — Effects, Duration, Remedies & Antardasha Periods`,
     description: `Complete guide to ${data.planet} Mahadasha in the Vimshottari Dasha system. ${data.duration}-year period. Effects on career, relationships, health, spirituality. All 9 Antardasha sub-periods explained.`,
     alternates: { canonical: `https://astromedha.in/dasha/${planet}` },
     openGraph: {
-      title: `${data.planet} Mahadasha \u2014 Vimshottari Dasha Guide`,
+      title: `${data.planet} Mahadasha — Vimshottari Dasha Guide`,
       description: data.overview,
       type: "article",
     },
@@ -62,13 +62,13 @@ export default async function DashaPage({ params }: Props) {
       {/* Header */}
       <div className="mb-8">
         <div className="inline-block px-3 py-1 bg-purple-600/15 border border-purple-500/20 rounded-full text-xs text-purple-300 mb-3">
-          {data.nature} Planet \u2022 #{data.order} in Vimshottari Sequence
+          {data.nature} Planet • #{data.order} in Vimshottari Sequence
         </div>
         <h1 className="text-3xl md:text-4xl font-bold text-gray-100 mb-2">
           {data.planet} Mahadasha
         </h1>
         <p className="text-gray-400">
-          {data.planetSanskrit} \u2022 Duration: {data.duration} years \u2022 {data.nature}
+          {data.planetSanskrit} • Duration: {data.duration} years • {data.nature}
         </p>
       </div>
 
@@ -98,7 +98,7 @@ export default async function DashaPage({ params }: Props) {
             <ul className="space-y-2">
               {data.positiveEffects.map((e) => (
                 <li key={e} className="text-sm text-gray-300 flex items-start gap-2">
-                  <span className="text-green-400 mt-0.5">\u2713</span> {e}
+                  <span className="text-green-400 mt-0.5">✓</span> {e}
                 </li>
               ))}
             </ul>
@@ -109,7 +109,7 @@ export default async function DashaPage({ params }: Props) {
             <ul className="space-y-2">
               {data.negativeEffects.map((e) => (
                 <li key={e} className="text-sm text-gray-300 flex items-start gap-2">
-                  <span className="text-orange-400 mt-0.5">\u25CB</span> {e}
+                  <span className="text-orange-400 mt-0.5">○</span> {e}
                 </li>
               ))}
             </ul>
@@ -144,7 +144,7 @@ export default async function DashaPage({ params }: Props) {
           <ul className="space-y-2">
             {data.remedies.map((r) => (
               <li key={r} className="text-gray-300 text-sm flex items-start gap-2">
-                <span className="text-purple-400 mt-0.5">\u2022</span> {r}
+                <span className="text-purple-400 mt-0.5">•</span> {r}
               </li>
             ))}
           </ul>
@@ -154,7 +154,7 @@ export default async function DashaPage({ params }: Props) {
       {/* Antardasha Periods */}
       <section className="mb-10">
         <h2 className="text-2xl font-bold text-gray-100 mb-6">
-          {data.planet} Mahadasha \u2014 All 9 Antardasha Periods
+          {data.planet} Mahadasha — All 9 Antardasha Periods
         </h2>
         <div className="space-y-4">
           {data.antardasha.map((ad) => (
@@ -222,13 +222,13 @@ export default async function DashaPage({ params }: Props) {
         </h2>
         <p className="text-gray-300 mb-4 max-w-lg mx-auto">
           Enter your birth details to calculate your exact Mahadasha, Antardasha, and
-          Pratyantardasha periods \u2014 with AI-powered interpretation.
+          Pratyantardasha periods — with AI-powered interpretation.
         </p>
         <Link
           href="https://astromedha.streamlit.app"
           className="inline-block px-8 py-3 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-lg transition-colors"
         >
-          Calculate My Dasha \u2192
+          Calculate My Dasha →
         </Link>
       </div>
 
@@ -238,7 +238,7 @@ export default async function DashaPage({ params }: Props) {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            headline: `${data.planet} Mahadasha \u2014 Complete Vimshottari Dasha Guide`,
+            headline: `${data.planet} Mahadasha — Complete Vimshottari Dasha Guide`,
             description: data.overview,
             author: { "@type": "Organization", name: "AstroMedha" },
             publisher: { "@type": "Organization", name: "AstroMedha", url: "https://astromedha.in" },

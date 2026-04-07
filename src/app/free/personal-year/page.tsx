@@ -18,56 +18,56 @@ const YEAR_MEANINGS: Record<number, { theme: string; keywords: string[]; descrip
   1: {
     theme: "New Beginnings & Independence",
     keywords: ["Fresh starts", "Leadership", "Initiative", "Self-reliance"],
-    description: "This is a year of new beginnings and planting seeds. The energy of 1 (ruled by the Sun) brings opportunities to start fresh projects, assert independence, and take bold action. It\u2019s the first year of a new 9-year cycle, making it ideal for launching ventures you want to nurture over the coming decade.",
-    advice: "Take initiative. Start that project, make that move, assert your vision. Avoid clinging to the past \u2014 this year rewards forward motion and courage.",
+    description: "This is a year of new beginnings and planting seeds. The energy of 1 (ruled by the Sun) brings opportunities to start fresh projects, assert independence, and take bold action. It’s the first year of a new 9-year cycle, making it ideal for launching ventures you want to nurture over the coming decade.",
+    advice: "Take initiative. Start that project, make that move, assert your vision. Avoid clinging to the past — this year rewards forward motion and courage.",
   },
   2: {
     theme: "Patience, Partnerships & Diplomacy",
     keywords: ["Cooperation", "Relationships", "Patience", "Intuition"],
     description: "Year 2 (ruled by the Moon) is about patience, partnerships, and emotional intelligence. The seeds planted in Year 1 need nurturing. This is a year to build alliances, deepen relationships, and develop the quiet strength of receptivity. Forcing outcomes will backfire.",
-    advice: "Collaborate, don\u2019t compete. Listen more than you speak. Romantic relationships and close friendships deepen this year. Trust the process even when progress feels slow.",
+    advice: "Collaborate, don’t compete. Listen more than you speak. Romantic relationships and close friendships deepen this year. Trust the process even when progress feels slow.",
   },
   3: {
     theme: "Creativity, Expression & Joy",
     keywords: ["Communication", "Creativity", "Social life", "Optimism"],
-    description: "Year 3 (ruled by Jupiter) brings expansion, joy, and creative expression. Social connections flourish, and opportunities come through communication \u2014 writing, speaking, networking. It\u2019s a year to enjoy life and let your personality shine.",
+    description: "Year 3 (ruled by Jupiter) brings expansion, joy, and creative expression. Social connections flourish, and opportunities come through communication — writing, speaking, networking. It’s a year to enjoy life and let your personality shine.",
     advice: "Express yourself freely. Attend social events, create art, write, perform. Avoid scattering your energy across too many projects. Focus your creativity for maximum impact.",
   },
   4: {
     theme: "Structure, Discipline & Foundation",
     keywords: ["Hard work", "Organization", "Stability", "Discipline"],
-    description: "Year 4 (ruled by Rahu) demands hard work and discipline. It\u2019s time to build solid foundations for your goals. Expect challenges that test your resolve \u2014 they\u2019re strengthening your structure. This year rewards methodical effort over shortcuts.",
-    advice: "Organize your life. Create systems, tackle deferred maintenance, build processes. Don\u2019t resist the grind \u2014 what you build this year becomes the platform for future growth.",
+    description: "Year 4 (ruled by Rahu) demands hard work and discipline. It’s time to build solid foundations for your goals. Expect challenges that test your resolve — they’re strengthening your structure. This year rewards methodical effort over shortcuts.",
+    advice: "Organize your life. Create systems, tackle deferred maintenance, build processes. Don’t resist the grind — what you build this year becomes the platform for future growth.",
   },
   5: {
     theme: "Change, Freedom & Adventure",
     keywords: ["Travel", "Change", "Freedom", "Versatility"],
     description: "Year 5 (ruled by Mercury) brings dynamic change, travel, and new experiences. After the discipline of Year 4, this year liberates you. Expect unexpected opportunities, changes in routine, and a strong desire for freedom and variety.",
-    advice: "Embrace change rather than resisting it. Travel, learn new skills, meet diverse people. Stay adaptable but don\u2019t abandon commitments recklessly. Channel Mercury\u2019s energy into learning.",
+    advice: "Embrace change rather than resisting it. Travel, learn new skills, meet diverse people. Stay adaptable but don’t abandon commitments recklessly. Channel Mercury’s energy into learning.",
   },
   6: {
     theme: "Love, Family & Responsibility",
     keywords: ["Family", "Love", "Responsibility", "Harmony"],
-    description: "Year 6 (ruled by Venus) centers on love, family, home, and responsibility. Relationships take priority \u2014 marriages, family matters, domestic decisions. You may take on caregiving roles or beautify your living space.",
-    advice: "Invest in relationships and home life. Address family matters you\u2019ve been postponing. Create beauty in your environment. Accept responsibility graciously \u2014 it builds deep fulfillment.",
+    description: "Year 6 (ruled by Venus) centers on love, family, home, and responsibility. Relationships take priority — marriages, family matters, domestic decisions. You may take on caregiving roles or beautify your living space.",
+    advice: "Invest in relationships and home life. Address family matters you’ve been postponing. Create beauty in your environment. Accept responsibility graciously — it builds deep fulfillment.",
   },
   7: {
     theme: "Reflection, Spirituality & Inner Growth",
     keywords: ["Introspection", "Spirituality", "Study", "Solitude"],
-    description: "Year 7 (ruled by Ketu) turns your attention inward. This is the most spiritual year in the cycle \u2014 a time for reflection, study, research, and deepening your understanding of life\u2019s mysteries. Outer achievements may slow as inner growth accelerates.",
-    advice: "Seek solitude and quiet contemplation. Study spiritual or philosophical subjects. Don\u2019t force material progress \u2014 this year\u2019s treasure is wisdom and self-knowledge.",
+    description: "Year 7 (ruled by Ketu) turns your attention inward. This is the most spiritual year in the cycle — a time for reflection, study, research, and deepening your understanding of life’s mysteries. Outer achievements may slow as inner growth accelerates.",
+    advice: "Seek solitude and quiet contemplation. Study spiritual or philosophical subjects. Don’t force material progress — this year’s treasure is wisdom and self-knowledge.",
   },
   8: {
     theme: "Power, Abundance & Material Mastery",
     keywords: ["Business", "Finance", "Authority", "Achievement"],
-    description: "Year 8 (ruled by Saturn) brings karmic rewards \u2014 both positive and challenging. It\u2019s the most powerful year for financial and career achievement. Past efforts bear fruit, and authority figures may play important roles. What you\u2019ve sown in previous years, you now reap.",
-    advice: "Make bold financial and career moves. Negotiate for what you deserve. Watch for karmic lessons \u2014 integrity matters more than ever. Manage money wisely as large sums may flow in and out.",
+    description: "Year 8 (ruled by Saturn) brings karmic rewards — both positive and challenging. It’s the most powerful year for financial and career achievement. Past efforts bear fruit, and authority figures may play important roles. What you’ve sown in previous years, you now reap.",
+    advice: "Make bold financial and career moves. Negotiate for what you deserve. Watch for karmic lessons — integrity matters more than ever. Manage money wisely as large sums may flow in and out.",
   },
   9: {
     theme: "Completion, Release & Transformation",
     keywords: ["Endings", "Letting go", "Compassion", "Transformation"],
-    description: "Year 9 (ruled by Mars) closes the 9-year cycle. It\u2019s a year of completion, release, and transformation. Relationships, projects, or phases that no longer serve you will naturally end. This clearing creates space for the new cycle beginning next year.",
-    advice: "Let go gracefully. Don\u2019t start major new ventures \u2014 instead, complete what\u2019s in progress. Practice generosity and compassion. Prepare for the fresh start of Year 1 ahead.",
+    description: "Year 9 (ruled by Mars) closes the 9-year cycle. It’s a year of completion, release, and transformation. Relationships, projects, or phases that no longer serve you will naturally end. This clearing creates space for the new cycle beginning next year.",
+    advice: "Let go gracefully. Don’t start major new ventures — instead, complete what’s in progress. Practice generosity and compassion. Prepare for the fresh start of Year 1 ahead.",
   },
 };
 
@@ -160,7 +160,7 @@ export default function PersonalYearCalculator() {
               href={`/numerology/${result.year}`}
               className="inline-block mt-4 text-sm text-purple-400 hover:text-purple-300"
             >
-              Read full Number {result.year} analysis \u2192
+              Read full Number {result.year} analysis →
             </Link>
           </div>
         </div>
@@ -212,7 +212,7 @@ export default function PersonalYearCalculator() {
           href="https://astromedha.streamlit.app"
           className="inline-block px-8 py-3 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-lg transition-colors"
         >
-          Get Daily Guidance \u2192
+          Get Daily Guidance →
         </Link>
       </div>
     </main>

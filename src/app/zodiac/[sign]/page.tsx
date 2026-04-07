@@ -16,11 +16,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const data = getZodiacBySlug(sign);
   if (!data) return {};
   return {
-    title: `${data.name} \u2014 Vedic Astrology Profile, Traits & Compatibility`,
+    title: `${data.name} — Vedic Astrology Profile, Traits & Compatibility`,
     description: `Complete Vedic astrology profile for ${data.name}. Personality traits, career guidance, love compatibility, health, ruling planet ${data.rulingPlanet}, element ${data.element}, and remedies.`,
     alternates: { canonical: `https://astromedha.in/zodiac/${sign}` },
     openGraph: {
-      title: `${data.name} \u2014 Vedic Zodiac Sign Profile`,
+      title: `${data.name} — Vedic Zodiac Sign Profile`,
       description: data.overview,
       type: "article",
     },
@@ -72,7 +72,7 @@ export default async function ZodiacPage({ params }: Props) {
             {data.name}
           </h1>
           <p className="text-gray-400 mt-1">
-            {data.element} Sign \u2022 {data.quality} \u2022 Ruled by {data.rulingPlanet} ({data.rulingPlanetSanskrit})
+            {data.element} Sign • {data.quality} • Ruled by {data.rulingPlanet} ({data.rulingPlanetSanskrit})
           </p>
         </div>
       </div>
@@ -116,7 +116,7 @@ export default async function ZodiacPage({ params }: Props) {
             <ul className="space-y-1">
               {data.strengths.map((s) => (
                 <li key={s} className="text-sm text-gray-300 flex items-center gap-2">
-                  <span className="text-green-400 text-xs">\u2713</span> {s}
+                  <span className="text-green-400 text-xs">✓</span> {s}
                 </li>
               ))}
             </ul>
@@ -126,7 +126,7 @@ export default async function ZodiacPage({ params }: Props) {
             <ul className="space-y-1">
               {data.weaknesses.map((w) => (
                 <li key={w} className="text-sm text-gray-300 flex items-center gap-2">
-                  <span className="text-orange-400 text-xs">\u25CB</span> {w}
+                  <span className="text-orange-400 text-xs">○</span> {w}
                 </li>
               ))}
             </ul>
@@ -194,7 +194,7 @@ export default async function ZodiacPage({ params }: Props) {
         </div>
         <p className="text-sm text-gray-500 mt-3">
           <Link href="/free/compatibility" className="text-purple-400 hover:text-purple-300">
-            Try our free compatibility checker \u2192
+            Try our free compatibility checker →
           </Link>
         </p>
       </section>
@@ -263,7 +263,7 @@ export default async function ZodiacPage({ params }: Props) {
           href="https://astromedha.streamlit.app"
           className="inline-block px-8 py-3 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-lg transition-colors"
         >
-          Get Full Guidance \u2192
+          Get Full Guidance →
         </Link>
       </div>
 
@@ -274,7 +274,7 @@ export default async function ZodiacPage({ params }: Props) {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            headline: `${data.name} \u2014 Complete Vedic Astrology Profile`,
+            headline: `${data.name} — Complete Vedic Astrology Profile`,
             description: data.overview,
             author: { "@type": "Organization", name: "AstroMedha" },
             publisher: { "@type": "Organization", name: "AstroMedha", url: "https://astromedha.in" },

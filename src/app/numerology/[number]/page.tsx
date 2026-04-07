@@ -16,11 +16,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const data = getNumerologyByNumber(Number(number));
   if (!data) return {};
   return {
-    title: `${data.name} in Chaldean Numerology \u2014 Personality, Career, Love & Compatibility`,
+    title: `${data.name} in Chaldean Numerology — Personality, Career, Love & Compatibility`,
     description: `Complete Chaldean numerology guide for ${data.name}. Ruled by ${data.rulingPlanet}. Personality traits, career paths, love compatibility, health, challenges, and famous personalities.`,
     alternates: { canonical: `https://astromedha.in/numerology/${number}` },
     openGraph: {
-      title: `${data.name} \u2014 Chaldean Numerology Guide`,
+      title: `${data.name} — Chaldean Numerology Guide`,
       description: data.overview,
       type: "article",
     },
@@ -73,7 +73,7 @@ export default async function NumerologyPage({ params }: Props) {
             {data.name}
           </h1>
           <p className="text-gray-400 mt-1">
-            Ruled by {data.rulingPlanet} ({data.rulingPlanetSanskrit}) \u2022 {data.element} Element
+            Ruled by {data.rulingPlanet} ({data.rulingPlanetSanskrit}) • {data.element} Element
           </p>
         </div>
       </div>
@@ -152,7 +152,7 @@ export default async function NumerologyPage({ params }: Props) {
           </h2>
           <p className="text-gray-300 leading-relaxed">{data.yearMeaning}</p>
           <Link href="/free/personal-year" className="inline-block mt-3 text-sm text-purple-400 hover:text-purple-300">
-            Calculate your Personal Year \u2192
+            Calculate your Personal Year →
           </Link>
         </div>
       </section>
@@ -231,7 +231,7 @@ export default async function NumerologyPage({ params }: Props) {
           href="https://astromedha.streamlit.app"
           className="inline-block px-8 py-3 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-lg transition-colors"
         >
-          Get Full Guidance \u2192
+          Get Full Guidance →
         </Link>
       </div>
 
@@ -241,7 +241,7 @@ export default async function NumerologyPage({ params }: Props) {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            headline: `${data.name} \u2014 Complete Chaldean Numerology Guide`,
+            headline: `${data.name} — Complete Chaldean Numerology Guide`,
             description: data.overview,
             author: { "@type": "Organization", name: "AstroMedha" },
             publisher: { "@type": "Organization", name: "AstroMedha", url: "https://astromedha.in" },
