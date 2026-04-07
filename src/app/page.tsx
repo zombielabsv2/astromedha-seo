@@ -241,6 +241,64 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Compatibility */}
+      <section className="max-w-6xl mx-auto px-4 py-16">
+        <h2 className="text-3xl font-bold text-center text-gray-100 mb-4">
+          Vedic Zodiac Compatibility
+        </h2>
+        <p className="text-gray-400 text-center mb-10 max-w-2xl mx-auto">
+          Explore compatibility between every pair of Vedic zodiac signs — elemental
+          harmony, planetary lordship, and relationship dynamics.
+        </p>
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+          {[
+            { pair: "mesha-simha", label: "Mesha & Simha" },
+            { pair: "vrishabha-kanya", label: "Vrishabha & Kanya" },
+            { pair: "mithuna-tula", label: "Mithuna & Tula" },
+            { pair: "karka-meena", label: "Karka & Meena" },
+            { pair: "simha-dhanu", label: "Simha & Dhanu" },
+            { pair: "kanya-makara", label: "Kanya & Makara" },
+            { pair: "tula-kumbha", label: "Tula & Kumbha" },
+            { pair: "vrishchika-meena", label: "Vrishchika & Meena" },
+          ].map((c) => (
+            <Link
+              key={c.pair}
+              href={`/compatibility/${c.pair}`}
+              className="bg-gray-900/50 border border-gray-800 rounded-lg p-3 text-center hover:border-purple-600/50 hover:bg-purple-950/20 transition-all text-sm text-gray-300 hover:text-purple-300"
+            >
+              {c.label}
+            </Link>
+          ))}
+        </div>
+        <p className="text-center mt-4">
+          <Link href="/free/compatibility" className="text-sm text-purple-400 hover:text-purple-300">
+            View all 78 compatibility pairs →
+          </Link>
+        </p>
+      </section>
+
+      {/* Name Analysis */}
+      <section className="max-w-6xl mx-auto px-4 py-16">
+        <h2 className="text-3xl font-bold text-center text-gray-100 mb-4">
+          Name Numerology Analysis
+        </h2>
+        <p className="text-gray-400 text-center mb-10 max-w-2xl mx-auto">
+          Every letter carries a Chaldean number vibration. Discover what your
+          name's first letter reveals about your personality and destiny.
+        </p>
+        <div className="grid grid-cols-6 sm:grid-cols-9 md:grid-cols-13 gap-2">
+          {"ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("").map((letter) => (
+            <Link
+              key={letter}
+              href={`/name-analysis/${letter.toLowerCase()}`}
+              className="bg-gray-900/50 border border-gray-800 rounded-lg p-2 text-center hover:border-purple-600/50 hover:bg-purple-950/20 transition-all"
+            >
+              <div className="text-lg font-bold text-purple-400">{letter}</div>
+            </Link>
+          ))}
+        </div>
+      </section>
+
       {/* Free Tools */}
       <section className="max-w-5xl mx-auto px-4 py-16">
         <h2 className="text-3xl font-bold text-center text-gray-100 mb-4">

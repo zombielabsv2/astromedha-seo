@@ -184,8 +184,18 @@ function Footer() {
                 </Link>
               </li>
             </ul>
-            <h3 className="text-sm font-semibold text-gray-200 mt-6 mb-3">Resources</h3>
+            <h3 className="text-sm font-semibold text-gray-200 mt-6 mb-3">More</h3>
             <ul className="space-y-1.5">
+              <li>
+                <Link href="/name-analysis/a" className="text-xs text-gray-500 hover:text-purple-300 transition-colors">
+                  Name Analysis (A-Z)
+                </Link>
+              </li>
+              <li>
+                <Link href="/compatibility/mesha-simha" className="text-xs text-gray-500 hover:text-purple-300 transition-colors">
+                  Sign Compatibility
+                </Link>
+              </li>
               <li>
                 <Link href="https://astromedha.streamlit.app" className="text-xs text-gray-500 hover:text-purple-300 transition-colors">
                   Get Full Guidance
